@@ -1,0 +1,14 @@
+{
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "material-icon-theme",
+
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "files.autoSave": "onFocusChange",
+
+  "vim.enableNeovim": true,
+  "vim.useCtrlKeys": false,
+  "vim.useSystemClipboard": true
+}
