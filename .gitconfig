@@ -2,5 +2,11 @@
 name = Hikari Hayashi
 email = rev.hikari@gmail.com
 
+[core]
+pager = delta
+
 [pull]
 ff = only
+
+[delta]
+line-numbers = true
