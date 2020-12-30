@@ -8,5 +8,8 @@ pager = delta
 [pull]
 ff = only
 
+[init]
+defaultBranch = main
+
 [delta]
 line-numbers = true
