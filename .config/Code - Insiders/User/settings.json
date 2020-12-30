@@ -13,5 +13,7 @@
 
   "vim.enableNeovim": true,
   "vim.useCtrlKeys": false,
-  "vim.useSystemClipboard": true
+  "vim.useSystemClipboard": true,
+
+  "emmet.triggerExpansionOnTab": true
 }
