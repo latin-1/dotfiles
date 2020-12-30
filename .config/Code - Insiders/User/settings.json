@@ -5,6 +5,7 @@
 
   "editor.fontFamily": "monospace",
   "editor.fontLigatures": true,
+  "editor.codeActionsOnSave": { "source.fixAll": true },
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
 
