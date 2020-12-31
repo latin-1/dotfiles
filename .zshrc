@@ -26,6 +26,10 @@ antibody bundle zsh-users/zsh-history-substring-search
 antibody bundle mafredri/zsh-async
 antibody bundle sindresorhus/pure
 
+# Key bindings
+
+bindkey -e
+
 bindkey "^[[A" history-substring-search-up
 bindkey "^[[B" history-substring-search-down
 
