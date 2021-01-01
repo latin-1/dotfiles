@@ -1,4 +1,4 @@
 module.exports = {
-  config: { verminal: { fontFamily: "monospace" } },
+  config: { fontFamily: "monospace" },
   plugins: ["hyper-snazzy", "hypercwd"],
 };
