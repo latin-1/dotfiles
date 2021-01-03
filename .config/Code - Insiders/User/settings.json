@@ -12,6 +12,11 @@
 
   "files.autoSave": "onFocusChange",
 
+  "search.exclude": {
+    "**/.yarn/**": true,
+    "**/yarn.lock": true
+  },
+
   "vim.enableNeovim": true,
   "vim.useCtrlKeys": false,
   "vim.useSystemClipboard": true,
