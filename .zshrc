@@ -37,4 +37,4 @@ bindkey "^[[B" history-substring-search-down
 
 source /usr/share/doc/pkgfile/command-not-found.zsh
 
-alias ls="ls --color=auto"
+alias ls="ls --human-readable --color=auto"
