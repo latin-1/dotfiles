@@ -13,6 +13,7 @@
   "[cpp]": { "editor.defaultFormatter": "xaver.clang-format" },
 
   "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true,
 
   "search.exclude": {
     "**/.yarn/**": true,
