@@ -1,0 +1,10 @@
+[Unit]
+After=pipewire-pulse.service
+Wants=pipewire-pulse.service
+
+[Service]
+Type=oneshot
+ExecStart=%h/.config/pipewire/scripts/setup.sh
+
+[Install]
+WantedBy=default.target
