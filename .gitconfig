@@ -11,11 +11,11 @@ ci = commit
 [core]
 pager = delta
 
-[pull]
-ff = only
-
 [init]
 defaultBranch = main
+
+[pull]
+ff = only
 
 [delta]
 line-numbers = true
