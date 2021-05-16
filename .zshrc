@@ -18,13 +18,13 @@ zstyle ":completion:*" special-dirs true
 
 source <(antibody init)
 
+antibody bundle mafredri/zsh-async
+antibody bundle sindresorhus/pure
+
 antibody bundle zsh-users/zsh-completions
 antibody bundle zsh-users/zsh-syntax-highlighting
 antibody bundle zsh-users/zsh-autosuggestions
 antibody bundle zsh-users/zsh-history-substring-search
-
-antibody bundle mafredri/zsh-async
-antibody bundle sindresorhus/pure
 
 # Key bindings
 
@@ -38,5 +38,3 @@ bindkey "^[[B" history-substring-search-down
 source /usr/share/doc/pkgfile/command-not-found.zsh
 
 alias ls="ls --human-readable --color=auto"
-
-alias code="code-insiders"
