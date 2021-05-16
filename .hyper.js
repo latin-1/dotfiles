@@ -1,4 +1,4 @@
 module.exports = {
   config: { fontFamily: "monospace" },
-  plugins: ["hyper-snazzy", "hypercwd"],
+  plugins: ["hypercwd", "hyper-snazzy"],
 };
