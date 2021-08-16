@@ -72,6 +72,6 @@ wine-init() {
 Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\\Software\\Wine\\DllOverrides]
-"winemenubuilder.exe"="d"
+"winemenubuilder.exe"=""
 EOF
 }
