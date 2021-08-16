@@ -38,3 +38,44 @@ bindkey "^[[B" history-substring-search-down
 source /usr/share/doc/pkgfile/command-not-found.zsh
 
 alias ls="ls --human-readable --color=auto"
+
+wine-init() {
+  local -x WINE="${WINE:-wine}"
+  local -x WINEPREFIX="${WINEPREFIX:-$HOME/.wine}"
+  local -x WINEDLLOVERRIDES="winemenubuilder.exe=d"
+
+  "$WINE" wineboot --init
+
+  # winetricks isolate_home
+  if pushd "$WINEPREFIX/drive_c/users/$USER" > /dev/null; then
+    for name in Documents Desktop; do
+      if [[ -h ./$name ]]; then
+        rm -f ./$name
+        mkdir ./$name
+      fi
+    done
+    for name in Downloads Pictures Music Videos Templates; do
+      if [[ -h ./$name ]]; then
+        rm -f ./$name
+        mkdir -p ./Documents/$name
+        ln -s ./Documents/$name ./$name
+      fi
+    done
+    popd > /dev/null
+  fi
+  echo disabled > "$WINEPREFIX/.update-timestamp"
+
+  local documents="$(xdg-user-dir DOCUMENTS 2> /dev/null || true)"
+  if [[ "$documents" != "" && "$documents" != "$HOME" ]]; then
+    for name in Downloads Pictures Music Videos Templates; do
+      rmdir "$documents/$name" 2> /dev/null || true
+    done
+  fi
+
+  "$WINE" regedit /s - << EOF
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\\Software\\Wine\\DllOverrides]
+"winemenubuilder.exe"="d"
+EOF
+}
