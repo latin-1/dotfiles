@@ -41,10 +41,12 @@ alias ls="ls --human-readable --color=auto"
 
 wine-init() {
   local -x WINE="${WINE:-wine}"
+  local -x WINESERVER="${WINESERVER:-${WINE}server}"
   local -x WINEPREFIX="${WINEPREFIX:-$HOME/.wine}"
   local -x WINEDLLOVERRIDES="winemenubuilder.exe=d"
 
   "$WINE" wineboot --init
+  "$WINESERVER" --wait
 
   # winetricks isolate_home
   if pushd "$WINEPREFIX/drive_c/users/$USER" > /dev/null; then
@@ -74,4 +76,5 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\\Software\\Wine\\DllOverrides]
 "winemenubuilder.exe"=""
 EOF
+  "$WINESERVER" --wait
 }
