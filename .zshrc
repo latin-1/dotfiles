@@ -55,11 +55,7 @@ wine-init() {
       fi
     done
     for name in Downloads Pictures Music Videos Templates; do
-      if [[ -h ./$name ]]; then
-        rm -f ./$name
-        mkdir -p ./Documents/$name
-        ln -s ./Documents/$name ./$name
-      fi
+      mkdir -p ./Documents/$name
     done
     popd > /dev/null
   fi
