@@ -78,3 +78,16 @@ Windows Registry Editor Version 5.00
 EOF
   "$WINESERVER" --wait
 }
+
+wine-destroy() {
+  local -x WINEPREFIX="${WINEPREFIX:-$HOME/.wine}"
+
+  rm -rf "$WINEPREFIX"
+
+  local documents="$(xdg-user-dir DOCUMENTS 2> /dev/null || true)"
+  if [[ "$documents" != "" && "$documents" != "$HOME" ]]; then
+    for name in Downloads Pictures Music Videos Templates; do
+      rmdir "$documents/$name" 2> /dev/null || true
+    done
+  fi
+}
