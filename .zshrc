@@ -61,7 +61,7 @@ wine-init() {
     done
     popd > /dev/null
   fi
-  echo disabled > "$WINEPREFIX/.update-timestamp"
+  echo disable > "$WINEPREFIX/.update-timestamp"
 
   local documents="$(xdg-user-dir DOCUMENTS 2> /dev/null || true)"
   if [[ "$documents" != "" && "$documents" != "$HOME" ]]; then
