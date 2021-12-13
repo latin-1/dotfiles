@@ -1,0 +1,17 @@
+[plugins."zsh-users/zsh-completions"]
+github = "zsh-users/zsh-completions"
+
+[plugins."zsh-users/zsh-syntax-highlighting"]
+github = "zsh-users/zsh-syntax-highlighting"
+
+[plugins."zsh-users/zsh-autosuggestions"]
+github = "zsh-users/zsh-autosuggestions"
+
+[plugins."zsh-users/zsh-history-substring-search"]
+github = "zsh-users/zsh-history-substring-search"
+
+[plugins."mafredri/zsh-async"]
+github = "mafredri/zsh-async"
+
+[plugins."sindresorhus/pure"]
+github = "sindresorhus/pure"

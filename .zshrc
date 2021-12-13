@@ -8,23 +8,15 @@ setopt INC_APPEND_HISTORY
 
 # Completion
 
-autoload -Uz compinit && compinit
-autoload -Uz bashcompinit && bashcompinit
-
 zstyle ":completion:*" menu select
 zstyle ":completion:*" special-dirs true
 
 # Plugins
 
-source <(antibody init)
+source <(sheldon source)
 
-antibody bundle mafredri/zsh-async
-antibody bundle sindresorhus/pure
-
-antibody bundle zsh-users/zsh-completions
-antibody bundle zsh-users/zsh-syntax-highlighting
-antibody bundle zsh-users/zsh-autosuggestions
-antibody bundle zsh-users/zsh-history-substring-search
+autoload -Uz compinit && compinit
+autoload -Uz bashcompinit && bashcompinit
 
 # Key bindings
 
