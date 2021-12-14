@@ -15,6 +15,9 @@
 
   "files.autoSave": "onFocusChange",
   "files.insertFinalNewline": true,
+  "files.associations": {
+    "LICENSE": "plaintext"
+  },
 
   "search.exclude": {
     "**/.yarn/**": true,
