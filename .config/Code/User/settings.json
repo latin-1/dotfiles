@@ -11,6 +11,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[c]": { "editor.defaultFormatter": "xaver.clang-format" },
   "[cpp]": { "editor.defaultFormatter": "xaver.clang-format" },
+  "[glsl]": { "editor.defaultFormatter": "xaver.clang-format" },
   "[prisma]": { "editor.defaultFormatter": "Prisma.prisma" },
 
   "files.autoSave": "onFocusChange",
