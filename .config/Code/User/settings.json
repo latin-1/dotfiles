@@ -12,6 +12,8 @@
   "[c]": { "editor.defaultFormatter": "xaver.clang-format" },
   "[cpp]": { "editor.defaultFormatter": "xaver.clang-format" },
   "[glsl]": { "editor.defaultFormatter": "xaver.clang-format" },
+  "[dart]": { "editor.defaultFormatter": "Dart-Code.dart-code" },
+  "[python]": { "editor.defaultFormatter": "ms-python.python" },
   "[prisma]": { "editor.defaultFormatter": "Prisma.prisma" },
 
   "files.autoSave": "onFocusChange",
