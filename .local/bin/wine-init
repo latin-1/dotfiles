@@ -4,6 +4,7 @@ set -eo pipefail
 export WINE="${WINE:-wine}"
 export WINESERVER="${WINESERVER:-${WINE}server}"
 export WINEPREFIX="${WINEPREFIX:-$HOME/.wine}"
+export WINEARCH="${WINEARCH:-win64}"
 export WINEDLLOVERRIDES="winemenubuilder.exe=d"
 
 "$WINE" wineboot --init

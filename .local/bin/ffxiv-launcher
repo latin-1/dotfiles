@@ -1,0 +1,15 @@
+#!/bin/bash
+set -eo pipefail
+
+export WINE="${WINE:-wine}"
+export WINETRICKS="${WINETRICKS:-winetricks}"
+export WINEPREFIX="$HOME/Games/Final Fantasy XIV/.wine-launcher"
+export WINEARCH="win32"
+
+if [[ ! -d "$WINEPREFIX" ]]; then
+  wine-init
+  "$WINETRICKS" vcrun2005 ie8
+fi
+
+cd "$HOME/Games/Final Fantasy XIV"
+"$WINE" ./FFXIVBoot.exe
