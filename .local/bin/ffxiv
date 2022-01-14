@@ -14,11 +14,11 @@ fi
 cd "$HOME/Games/Final Fantasy XIV/game"
 nvidia-run "$WINE" ./ffxiv_dx11.exe \
   -AppID=100001900 \
-  -AreaID=1 \
-  Dev.LobbyHost01=ffxivlobby01.ff14.sdo.com \
+  -AreaID=8 \
+  Dev.LobbyHost01=ffxivlobby08.ff14.sdo.com \
   Dev.LobbyPort01=54994 \
-  Dev.GMServerHost=ffxivgm01.ff14.sdo.com \
-  Dev.SaveDataBankHost=ffxivsdb01.ff14.sdo.com \
+  Dev.GMServerHost=ffxivgm08.ff14.sdo.com \
+  Dev.SaveDataBankHost=ffxivsdb08.ff14.sdo.com \
   resetConfig=0 \
   DEV.MaxEntitledExpansionID=1 \
   DEV.TestSID="$(cat ~/.config/fflogin/config.json | jq --join-output .sid)"
