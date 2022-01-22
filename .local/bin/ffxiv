@@ -12,6 +12,11 @@ if [[ ! -d "$WINEPREFIX" ]]; then
 fi
 
 cd "$HOME/Games/Final Fantasy XIV/game"
+
+if [[ ! -L ./sdo || "$(readlink ./sdo)" != "./sdo-patched" ]]; then
+  ln -sTf ./sdo-patched ./sdo
+fi
+
 nvidia-run "$WINE" ./ffxiv_dx11.exe \
   -AppID=100001900 \
   -AreaID=8 \

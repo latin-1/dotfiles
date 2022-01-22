@@ -12,4 +12,9 @@ if [[ ! -d "$WINEPREFIX" ]]; then
 fi
 
 cd "$HOME/Games/Final Fantasy XIV"
+
+if [[ ! -L ./sdo || "$(readlink ./sdo)" != "./sdo-original" ]]; then
+  ln -sTf ./sdo-original ./sdo
+fi
+
 "$WINE" ./FFXIVBoot.exe
