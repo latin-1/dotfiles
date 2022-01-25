@@ -11,13 +11,13 @@ if [[ ! -d "$WINEPREFIX" ]]; then
   "$WINETRICKS" dxvk
 fi
 
-cd "$HOME/Games/Final Fantasy XIV/game"
+cd "$HOME/Games/Final Fantasy XIV"
 
 if [[ ! -L ./sdo || "$(readlink ./sdo)" != "./sdo-patched" ]]; then
   ln -sTf ./sdo-patched ./sdo
 fi
 
-nvidia-run "$WINE" ./ffxiv_dx11.exe \
+nvidia-run "$WINE" ./game/ffxiv_dx11.exe \
   -AppID=100001900 \
   -AreaID=8 \
   Dev.LobbyHost01=ffxivlobby08.ff14.sdo.com \

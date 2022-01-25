@@ -34,5 +34,7 @@
   "vim.useCtrlKeys": false,
   "vim.useSystemClipboard": true,
 
-  "emmet.triggerExpansionOnTab": true
+  "emmet.triggerExpansionOnTab": true,
+
+  "python.formatting.provider": "black"
 }
