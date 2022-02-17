@@ -23,3 +23,6 @@ ff = only
 
 [delta]
 line-numbers = true
+
+[includeIf "gitdir:~/Projects/work/"]
+path = ./.gitconfig.work
