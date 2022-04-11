@@ -18,6 +18,9 @@ defaultBranch = main
 [commit]
 gpgsign = true
 
+[merge]
+conflictStyle = zdiff3
+
 [pull]
 ff = only
 
