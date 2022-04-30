@@ -1,7 +1,8 @@
-path+=(
+path=(
   "$HOME/.local/bin"
   "$HOME/.cargo/bin"
   "$HOME/Projects/flutter/bin"
+  "$path[@]"
 )
 export PATH
 
