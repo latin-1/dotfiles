@@ -1,7 +1,11 @@
 {
+  "window.menuBarVisibility": "hidden",
+  "window.autoDetectColorScheme": true,
+
   "workbench.startupEditor": "none",
-  "workbench.editor.decorations.badges": false,
-  "workbench.colorTheme": "One Dark Pro",
+  "workbench.colorTheme": "GitHub Light Default",
+  "workbench.preferredLightColorTheme": "GitHub Light Default",
+  "workbench.preferredDarkColorTheme": "GitHub Dark Default",
   "workbench.iconTheme": "material-icon-theme",
 
   "editor.fontFamily": "monospace",
@@ -32,9 +36,6 @@
 
   "vim.enableNeovim": true,
   "vim.useCtrlKeys": false,
-  "vim.useSystemClipboard": true,
-
-  "emmet.triggerExpansionOnTab": true,
 
   "python.formatting.provider": "black"
 }
