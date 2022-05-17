@@ -10,9 +10,11 @@
 
   "editor.fontFamily": "monospace",
   "editor.fontLigatures": true,
-  "editor.codeActionsOnSave": { "source.fixAll": true },
+  "editor.inlineSuggest.enabled": true,
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": { "source.fixAll": true },
+
   "[c]": { "editor.defaultFormatter": "xaver.clang-format" },
   "[cpp]": { "editor.defaultFormatter": "xaver.clang-format" },
   "[glsl]": { "editor.defaultFormatter": "xaver.clang-format" },
@@ -36,6 +38,7 @@
 
   "vim.enableNeovim": true,
   "vim.useCtrlKeys": false,
+  "vim.useSystemClipboard": true,
 
   "python.formatting.provider": "black"
 }
