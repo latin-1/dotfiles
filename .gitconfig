@@ -18,6 +18,9 @@ defaultBranch = main
 [commit]
 gpgsign = true
 
+[diff]
+colorMoved = default
+
 [merge]
 conflictStyle = zdiff3
 
