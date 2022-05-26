@@ -1,0 +1,6 @@
+[Service]
+Type=exec
+ExecStart=/usr/bin/env figma-agent
+
+[Install]
+WantedBy=default.target
