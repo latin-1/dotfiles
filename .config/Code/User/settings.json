@@ -10,6 +10,7 @@
 
   "editor.fontFamily": "monospace",
   "editor.fontLigatures": true,
+  "editor.inlayHints.enabled": "off",
   "editor.inlineSuggest.enabled": true,
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
