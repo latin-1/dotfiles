@@ -43,5 +43,8 @@
   "vim.useCtrlKeys": false,
   "vim.useSystemClipboard": true,
 
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
   "python.formatting.provider": "black"
 }
