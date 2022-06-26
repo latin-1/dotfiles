@@ -1,9 +1,0 @@
-#!/bin/bash
-set -eo pipefail
-
-bwrap \
-  --unshare-all --share-net \
-  --ro-bind /usr /usr --symlink usr/lib /lib64 \
-  --ro-bind /etc/resolv.conf /etc/resolv.conf \
-  --proc /proc --dev /dev --tmpfs /tmp \
-  BrowserStackLocal --key "$(cat ~/.config/bslocal.json | jq --join-output .key)"
