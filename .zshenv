@@ -16,8 +16,6 @@ export VISUAL="nvim"
 
 export NODE_OPTIONS="--max-old-space-size=4096"
 
-export VK_ICD_FILENAMES="/usr/share/vulkan/icd.d/radeon_icd.i686.json:/usr/share/vulkan/icd.d/radeon_icd.x86_64.json"
-
 export WINEFSYNC="1"
 export WINEDLLOVERRIDES="winemenubuilder.exe=d"
 export DXVK_LOG_PATH="none"
