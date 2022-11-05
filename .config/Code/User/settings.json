@@ -19,32 +19,21 @@
   "[c]": { "editor.defaultFormatter": "xaver.clang-format" },
   "[cpp]": { "editor.defaultFormatter": "xaver.clang-format" },
   "[glsl]": { "editor.defaultFormatter": "xaver.clang-format" },
+  "[prisma]": { "editor.defaultFormatter": "Prisma.prisma" },
   "[rust]": { "editor.defaultFormatter": "rust-lang.rust-analyzer" },
   "[toml]": { "editor.defaultFormatter": "tamasfe.even-better-toml" },
-  "[dart]": { "editor.defaultFormatter": "Dart-Code.dart-code" },
-  "[prisma]": { "editor.defaultFormatter": "Prisma.prisma" },
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.python",
-    "editor.codeActionsOnSave": { "source.organizeImports": true }
-  },
 
   "files.autoSave": "onFocusChange",
-  "files.insertFinalNewline": true,
   "files.associations": {
     "**/LICENSE": "plaintext"
   },
 
-  "search.exclude": {
-    "**/.yarn/**": true,
-    "**/yarn.lock": true
-  },
-
-  "vim.enableNeovim": true,
-  "vim.useCtrlKeys": false,
-  "vim.useSystemClipboard": true,
-
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
 
-  "python.formatting.provider": "black"
+  "material-icon-theme.activeIconPack": "none",
+
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  }
 }
