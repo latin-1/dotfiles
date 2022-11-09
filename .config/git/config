@@ -16,7 +16,7 @@ pager = delta
 defaultBranch = main
 
 [commit]
-gpgsign = true
+gpgSign = true
 
 [diff]
 colorMoved = default
@@ -26,6 +26,9 @@ conflictStyle = zdiff3
 
 [pull]
 ff = only
+
+[push]
+autoSetupRemote = true
 
 [delta]
 line-numbers = true
