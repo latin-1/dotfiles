@@ -31,5 +31,5 @@ ff = only
 line-numbers = true
 syntax-theme = GitHub
 
-[includeIf "gitdir:~/Projects/work/"]
-path = ./.gitconfig.work
+[include]
+path = ./config.private
