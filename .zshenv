@@ -16,6 +16,9 @@ export VISUAL="nvim"
 
 export NODE_OPTIONS="--max-old-space-size=4096"
 
+# https://github.com/microsoft/vscode-eslint/pull/1475
+export PNPM_HOME="$HOME/.local/share/pnpm"
+
 export WINEFSYNC="1"
 export WINEDLLOVERRIDES="winemenubuilder.exe=d"
 export DXVK_LOG_PATH="none"
