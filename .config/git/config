@@ -8,6 +8,7 @@ st = status
 br = branch
 co = checkout
 ci = commit
+cp = cherry-pick
 
 [core]
 pager = delta

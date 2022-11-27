@@ -29,6 +29,8 @@
     "**/LICENSE": "plaintext"
   },
 
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
 
