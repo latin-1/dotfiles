@@ -31,11 +31,13 @@
 
   "terminal.integrated.enableMultiLinePasteWarning": false,
 
+  "vscode-neovim.useCtrlKeysForInsertMode": false,
+  "vscode-neovim.useCtrlKeysForNormalMode": false,
+
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
 
-  "vscode-neovim.useCtrlKeysForInsertMode": false,
-  "vscode-neovim.useCtrlKeysForNormalMode": false,
+  "jest.autoRun": "off",
 
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
