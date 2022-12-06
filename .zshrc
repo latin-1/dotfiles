@@ -31,3 +31,4 @@ source /usr/share/doc/pkgfile/command-not-found.zsh
 
 alias ls="ls --human-readable --color=auto"
 alias grep="grep --color=auto"
+alias unar="unar -forks skip"
