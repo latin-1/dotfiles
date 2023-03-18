@@ -7,37 +7,28 @@
   "workbench.preferredLightColorTheme": "GitHub Light Default",
   "workbench.preferredDarkColorTheme": "GitHub Dark Default",
   "workbench.iconTheme": "material-icon-theme",
-  "material-icon-theme.activeIconPack": "none",
 
   "editor.fontFamily": "monospace",
   "editor.fontLigatures": true,
-  "editor.inlayHints.enabled": "off",
-  "editor.inlineSuggest.enabled": true,
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": { "source.fixAll": true },
 
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[c]": { "editor.defaultFormatter": "xaver.clang-format" },
   "[cpp]": { "editor.defaultFormatter": "xaver.clang-format" },
   "[glsl]": { "editor.defaultFormatter": "xaver.clang-format" },
   "[prisma]": { "editor.defaultFormatter": "Prisma.prisma" },
   "[rust]": { "editor.defaultFormatter": "rust-lang.rust-analyzer" },
   "[toml]": { "editor.defaultFormatter": "tamasfe.even-better-toml" },
+  "[zig]": { "editor.defaultFormatter": "ziglang.vscode-zig" },
 
   "files.autoSave": "onFocusChange",
   "files.associations": {
     "**/LICENSE": "plaintext"
   },
 
-  "terminal.integrated.enableMultiLinePasteWarning": false,
-
-  "vscode-neovim.useCtrlKeysForInsertMode": false,
   "vscode-neovim.useCtrlKeysForNormalMode": false,
-
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-
-  "jest.autoRun": "off",
+  "vscode-neovim.useCtrlKeysForInsertMode": false,
 
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
