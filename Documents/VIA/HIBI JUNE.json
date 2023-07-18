@@ -61,8 +61,8 @@
       "KC_RSFT",
       "MO(1)",
       "KC_LCTL",
-      "KC_LGUI",
       "KC_LALT",
+      "KC_LGUI",
       "KC_NO",
       "KC_NO",
       "KC_NO",
@@ -71,8 +71,8 @@
       "KC_NO",
       "KC_NO",
       "KC_NO",
-      "KC_RALT",
       "KC_RGUI",
+      "KC_RALT",
       "KC_RCTL"
     ],
     [
