@@ -34,6 +34,7 @@ ff = only
 autoSetupRemote = true
 
 [delta]
+navigate = true
 line-numbers = true
 syntax-theme = GitHub
 
