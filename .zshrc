@@ -18,6 +18,8 @@ source <(sheldon source)
 autoload -Uz compinit && compinit
 autoload -Uz bashcompinit && bashcompinit
 
+eval "$(starship init zsh)"
+
 # Key bindings
 
 bindkey -e
