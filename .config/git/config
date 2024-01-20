@@ -19,6 +19,7 @@ defaultBranch = main
 gpgSign = true
 
 [diff]
+algorithm = histogram
 colorMoved = dimmed-zebra
 
 [merge]
