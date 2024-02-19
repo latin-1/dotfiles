@@ -10,7 +10,3 @@ export VISUAL="nvim"
 export LESS="-RF"
 
 export NODE_OPTIONS="--max-old-space-size=4096"
-
-# pnpm
-export PNPM_HOME="$HOME/.local/share/pnpm"
-export PATH="$PNPM_HOME:$PATH"
