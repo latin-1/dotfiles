@@ -11,7 +11,7 @@
   "editor.fontFamily": "monospace",
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": { "source.fixAll": true },
+  "editor.codeActionsOnSave": { "source.fixAll": "explicit" },
 
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[c]": { "editor.defaultFormatter": "xaver.clang-format" },
@@ -20,17 +20,20 @@
   "[prisma]": { "editor.defaultFormatter": "Prisma.prisma" },
   "[rust]": { "editor.defaultFormatter": "rust-lang.rust-analyzer" },
   "[toml]": { "editor.defaultFormatter": "tamasfe.even-better-toml" },
-  "[zig]": { "editor.defaultFormatter": "ziglang.vscode-zig" },
+  "[typst]": { "editor.defaultFormatter": "nvarner.typst-lsp" },
 
   "files.autoSave": "onFocusChange",
   "files.associations": {
     "**/LICENSE": "plaintext"
   },
 
-  "vscode-neovim.useCtrlKeysForNormalMode": false,
-  "vscode-neovim.useCtrlKeysForInsertMode": false,
+  "vscode-neovim.ctrlKeysForNormalMode": [],
+  "vscode-neovim.ctrlKeysForInsertMode": [],
 
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
-  }
+  },
+
+  "typst-lsp.exportPdf": "never",
+  "typst-lsp.experimentalFormatterMode": "on"
 }
