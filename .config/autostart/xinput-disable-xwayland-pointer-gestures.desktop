@@ -1,4 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=xinput-disable-xwayland-pointer-gestures
-Exec=/bin/bash -c "xinput list --name-only | grep ^xwayland-pointer-gestures | xargs -n1 xinput disable"
