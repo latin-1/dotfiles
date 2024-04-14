@@ -1,0 +1,7 @@
+bun = "latest"
+deno = "latest"
+node = "latest"
+
+[settings]
+auto-clean = true
+auto-install = true
