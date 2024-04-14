@@ -1,3 +1,9 @@
+function try_source() {
+  if [[ -f "$1" ]]; then
+    source "$1"
+  fi
+}
+
 # History
 
 HISTFILE="$HOME/.zsh_history"
@@ -20,6 +26,8 @@ autoload -Uz bashcompinit && bashcompinit
 
 eval "$(starship init zsh)"
 
+try_source /etc/profile.d/vte.sh
+
 # Key bindings
 
 bindkey -e
@@ -29,7 +37,7 @@ bindkey "^[[B" history-substring-search-down
 
 # Aliases
 
-source /usr/share/doc/pkgfile/command-not-found.zsh
+try_source /usr/share/doc/pkgfile/command-not-found.zsh
 
 alias ls="ls --human-readable --color=auto"
 alias jless="jless --mode=line"
