@@ -24,7 +24,8 @@
 
   "files.autoSave": "onFocusChange",
   "files.associations": {
-    "**/LICENSE": "plaintext"
+    "**/LICENSE": "plaintext",
+    "**/.prototools": "toml"
   },
 
   "vscode-neovim.ctrlKeysForNormalMode": [],
