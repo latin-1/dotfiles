@@ -1,6 +1,10 @@
+biome = "latest"
 bun = "latest"
 deno = "latest"
 node = "latest"
+
+[plugins]
+biome = "source:https://raw.githubusercontent.com/neetly/proto-plugins/main/biome/proto-plugin.toml"
 
 [settings]
 auto-clean = true
