@@ -20,7 +20,7 @@
   "[prisma]": { "editor.defaultFormatter": "Prisma.prisma" },
   "[rust]": { "editor.defaultFormatter": "rust-lang.rust-analyzer" },
   "[toml]": { "editor.defaultFormatter": "tamasfe.even-better-toml" },
-  "[typst]": { "editor.defaultFormatter": "nvarner.typst-lsp" },
+  "[typst]": { "editor.defaultFormatter": "myriad-dreamin.tinymist" },
 
   "files.autoSave": "onFocusChange",
   "files.associations": {
@@ -33,8 +33,5 @@
 
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
-  },
-
-  "typst-lsp.exportPdf": "never",
-  "typst-lsp.experimentalFormatterMode": "on"
+  }
 }
