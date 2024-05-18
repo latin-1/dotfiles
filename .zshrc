@@ -40,5 +40,4 @@ bindkey "^[[B" history-substring-search-down
 try_source /usr/share/doc/pkgfile/command-not-found.zsh
 
 alias ls="ls --human-readable --color=auto"
-alias jless="jless --mode=line"
 alias unar="unar -forks skip"
