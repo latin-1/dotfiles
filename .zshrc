@@ -24,9 +24,10 @@ source <(sheldon source)
 autoload -Uz compinit && compinit
 autoload -Uz bashcompinit && bashcompinit
 
-eval "$(starship init zsh)"
+source <(starship init zsh)
 
 try_source /etc/profile.d/vte.sh
+try_source /usr/share/doc/pkgfile/command-not-found.zsh
 
 # Key bindings
 
@@ -36,8 +37,6 @@ bindkey "^[[A" history-substring-search-up
 bindkey "^[[B" history-substring-search-down
 
 # Aliases
-
-try_source /usr/share/doc/pkgfile/command-not-found.zsh
 
 alias ls="ls --human-readable --color=auto"
 alias unar="unar -forks skip"
