@@ -26,6 +26,7 @@ autoload -Uz bashcompinit && bashcompinit
 
 source <(starship init zsh)
 
+source <(pkgx --shellcode)
 try_source /etc/profile.d/vte.sh
 try_source /usr/share/doc/pkgfile/command-not-found.zsh
 
