@@ -1,5 +1,5 @@
 {
-  "window.menuBarVisibility": "hidden",
+  "window.titleBarStyle": "custom",
   "window.autoDetectColorScheme": true,
 
   "workbench.startupEditor": "none",
