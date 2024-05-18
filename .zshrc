@@ -39,4 +39,5 @@ bindkey "^[[B" history-substring-search-down
 # Aliases
 
 alias ls="ls --human-readable --color=auto"
+alias tree="eza --tree"
 alias unar="unar -forks skip"
