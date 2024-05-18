@@ -15,12 +15,12 @@ pager = delta
 [init]
 defaultBranch = main
 
-[commit]
-gpgSign = true
-
 [diff]
 algorithm = histogram
 colorMoved = dimmed-zebra
+
+[commit]
+gpgSign = true
 
 [merge]
 conflictStyle = zdiff3
