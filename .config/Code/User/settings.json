@@ -6,7 +6,7 @@
   "workbench.colorTheme": "GitHub Light Default",
   "workbench.preferredLightColorTheme": "GitHub Light Default",
   "workbench.preferredDarkColorTheme": "GitHub Dark Default",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-auto",
 
   "editor.fontFamily": "monospace",
   "editor.fontLigatures": true,
