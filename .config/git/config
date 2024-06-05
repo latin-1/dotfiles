@@ -22,6 +22,9 @@ colorMoved = dimmed-zebra
 [commit]
 gpgSign = true
 
+[tag]
+gpgSign = true
+
 [merge]
 conflictStyle = zdiff3
 
