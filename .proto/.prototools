@@ -1,0 +1,7 @@
+node = "latest"
+npm = "latest"
+pnpm = "latest"
+yarn = "latest"
+
+[settings]
+auto-install = true

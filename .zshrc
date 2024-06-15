@@ -27,8 +27,6 @@ autoload -Uz bashcompinit && bashcompinit
 source <(starship init zsh)
 try_source /etc/profile.d/vte.sh
 
-source <(pkgx --shellcode)
-
 # Key bindings
 
 bindkey -e

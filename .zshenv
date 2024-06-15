@@ -1,5 +1,6 @@
 path=(
   "$HOME/.local/bin"
+  "$HOME/.proto/shims"
   "$path[@]"
 )
 export PATH
