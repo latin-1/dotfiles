@@ -1,2 +1,5 @@
 [Context]
 filesystems=xdg-config/fontconfig:ro;
+
+[Environment]
+NO_POINTER_VIEWPORT=1
