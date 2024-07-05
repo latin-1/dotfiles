@@ -3,5 +3,8 @@ npm = "latest"
 pnpm = "latest"
 yarn = "latest"
 
+[tools.npm]
+shared-globals-dir = true
+
 [settings]
 auto-install = true
