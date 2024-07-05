@@ -25,7 +25,6 @@ autoload -Uz compinit && compinit
 autoload -Uz bashcompinit && bashcompinit
 
 source <(starship init zsh)
-try_source /etc/profile.d/vte.sh
 
 # Key bindings
 
