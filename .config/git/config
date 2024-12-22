@@ -1,0 +1,35 @@
+[user]
+  name = Hikari Hayashi
+  email = rev.hikari@gmail.com
+
+[alias]
+  st = status
+  br = branch
+  co = checkout
+  ci = commit
+
+[core]
+  pager = delta
+
+[init]
+  defaultBranch = main
+
+[diff]
+  algorithm = histogram
+  colorMoved = dimmed-zebra
+
+[merge]
+  conflictStyle = zdiff3
+
+[rebase]
+  autoSquash = true
+
+[pull]
+  ff = only
+
+[push]
+  autoSetupRemote = true
+
+[delta]
+  navigate = true
+  line-numbers = true
