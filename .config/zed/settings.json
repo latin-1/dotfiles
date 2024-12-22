@@ -19,5 +19,9 @@
     }
   },
 
+  "auto_install_extensions": {
+    "catppuccin": true
+  },
+
   "proxy": "socks://127.0.0.1:1080"
 }
