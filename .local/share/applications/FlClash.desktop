@@ -1,4 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=FlClash
-Exec=/bin/bash -c '~/Applications/FlClash.AppImage'

@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 brew "bat"
 brew "eza"
+brew "fastfetch"
 brew "gh"
 brew "git-delta"
 brew "git-extras"

@@ -1,4 +1,1 @@
-#!/bin/bash
-set -eo pipefail
-
-flatpak-spawn --host zed "$@"
+/usr/bin/host-spawn

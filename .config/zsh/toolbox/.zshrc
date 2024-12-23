@@ -8,3 +8,7 @@ source <(starship init zsh)
 
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
+
+# Aliases
+
+alias x='host-spawn'
