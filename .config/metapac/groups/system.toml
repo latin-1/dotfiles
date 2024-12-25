@@ -1,0 +1,19 @@
+cargo = ["metapac"]
+
+flatpak = [
+  "com.github.tchx84.Flatseal",
+  "io.github.celluloid_player.Celluloid",
+  "net.nokyan.Resources",
+  "org.fedoraproject.Platform",
+  "org.gnome.Calculator",
+  "org.gnome.Calendar",
+  "org.gnome.Characters",
+  "org.gnome.Extensions",
+  "org.gnome.Loupe",
+  "org.gnome.NautilusPreviewer",
+  "org.gnome.Snapshot",
+  "org.gnome.Weather",
+  "org.gnome.clocks",
+  "org.gtk.Gtk3theme.adw-gtk3",
+  "org.gtk.Gtk3theme.adw-gtk3-dark",
+]
