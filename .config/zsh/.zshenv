@@ -8,5 +8,11 @@ if [[ -x /home/linuxbrew/.linuxbrew/bin/brew ]]; then
   source <(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 fi
 
+# https://moonrepo.dev/proto
+path+=(
+  ~/.proto/shims
+  ~/.proto/tools/node/globals/bin
+)
+
 export EDITOR='nvim'
 export VISUAL='nvim'
