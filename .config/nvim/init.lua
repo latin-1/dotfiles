@@ -45,7 +45,6 @@ require("lazy").setup({
         format_on_save = true,
         formatters_by_ft = {
           sh = { "shfmt" },
-          zsh = { "shfmt" },
           lua = { "stylua" },
         },
       },
