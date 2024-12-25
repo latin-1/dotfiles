@@ -8,6 +8,8 @@ if [[ -x /home/linuxbrew/.linuxbrew/bin/brew ]]; then
   source <(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 fi
 
+source ~/.cargo/env
+
 # https://moonrepo.dev/proto
 path+=(
   ~/.proto/shims
