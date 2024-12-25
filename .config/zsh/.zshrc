@@ -21,3 +21,7 @@ bindkey -v
 # Aliases
 
 alias vim='nvim'
+
+if [[ -f /run/.toolboxenv ]]; then
+  alias x='host-spawn'
+fi
