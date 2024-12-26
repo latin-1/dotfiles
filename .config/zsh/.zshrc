@@ -21,6 +21,7 @@ bindkey -v
 # Aliases
 
 (( $+commands[nvim] )) && alias vim='nvim'
+(( $+commands[eza] )) && alias tree='eza --tree'
 (( $+commands[unar] )) && alias unar='unar -forks skip'
 
 if [[ -f /run/.toolboxenv ]]; then
