@@ -8,7 +8,13 @@ if [[ -x /home/linuxbrew/.linuxbrew/bin/brew ]]; then
   source <(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 fi
 
-source ~/.cargo/env
+function try_source() {
+  if [[ -f $1 ]]; then
+    source $1
+  fi
+}
+
+try_source ~/.cargo/env
 
 # https://moonrepo.dev/proto
 path+=(
@@ -16,5 +22,10 @@ path+=(
   ~/.proto/tools/node/globals/bin
 )
 
-export EDITOR='nvim'
-export VISUAL='nvim'
+if (( $+commands[nvim] )); then
+  export EDITOR='nvim'
+  export VISUAL='nvim'
+elif (( $+commands[vim] )); then
+  export EDITOR='vim'
+  export VISUAL='vim'
+fi
