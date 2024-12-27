@@ -47,6 +47,7 @@ require("lazy").setup({
           toml = { "taplo" },
           sh = { "shfmt" },
           lua = { "stylua" },
+          zig = { "zigfmt" },
         },
       },
     },
