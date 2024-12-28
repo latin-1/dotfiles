@@ -1,5 +1,14 @@
 cargo = ["metapac"]
 
+dnf = [
+  "@development-tools",
+  "android-tools",
+  "dconf",
+  "host-spawn",
+  "wl-clipboard",
+  "zsh",
+]
+
 flatpak = [
   "com.github.tchx84.Flatseal",
   "io.github.celluloid_player.Celluloid",
