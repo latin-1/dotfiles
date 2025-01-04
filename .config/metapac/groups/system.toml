@@ -5,6 +5,7 @@ dnf = [
   "android-tools",
   "dconf",
   "host-spawn",
+  "openssl-devel",
   "wl-clipboard",
   "zsh",
 ]
