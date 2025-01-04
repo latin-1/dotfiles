@@ -26,4 +26,5 @@ flatpak = [
   "org.gnome.clocks",
   "org.gtk.Gtk3theme.adw-gtk3",
   "org.gtk.Gtk3theme.adw-gtk3-dark",
+  "page.tesk.Refine",
 ]
