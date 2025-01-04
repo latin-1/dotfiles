@@ -1,4 +1,4 @@
-cargo = ["metapac"]
+cargo = ["cargo-update", "metapac"]
 
 dnf = [
   "@development-tools",
