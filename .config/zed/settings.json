@@ -1,9 +1,11 @@
 {
   "theme": "Catppuccin Latte",
-  "ui_font_family": "Source Sans 3",
+  "ui_font_family": "Source Sans 3", // https://github.com/zed-industries/zed/issues/22676
   "ui_font_size": 16,
-  "buffer_font_family": "Iosevka Term",
+  "ui_font_weight": 500, // https://github.com/zed-industries/zed/issues/13564
+  "buffer_font_family": "Iosevka Term", // https://github.com/zed-industries/zed/issues/22676
   "buffer_font_size": 14,
+  "buffer_font_weight": 500, // https://github.com/zed-industries/zed/issues/13564
 
   // https://github.com/zed-industries/zed/issues/20226
   "project_panel": {
@@ -17,7 +19,6 @@
   "terminal": {
     "shell": {
       "with_arguments": {
-        "title_override": "Toolbox",
         "program": "toolbox",
         "args": ["enter"]
       }
