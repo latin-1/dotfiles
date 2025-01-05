@@ -3,6 +3,7 @@ set -eo pipefail
 
 flags=()
 if [[ ! -t 1 ]]; then
+  # https://github.com/1player/host-spawn/issues/40
   flags+=(--no-pty)
 fi
 
