@@ -46,6 +46,7 @@ flatpak = [
   "org.gnome.Snapshot",
   "org.gnome.Weather",
   "org.gnome.clocks",
+  "org.gnome.seahorse.Application",
   "org.gtk.Gtk3theme.adw-gtk3",
   "org.gtk.Gtk3theme.adw-gtk3-dark",
   "page.tesk.Refine",
