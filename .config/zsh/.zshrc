@@ -14,7 +14,7 @@ zstyle ':completion:*' special-dirs true
 autoload -Uz compinit && compinit
 autoload -Uz bashcompinit && bashcompinit
 
-# Key Bindings
+# Key bindings
 
 bindkey -v
 
@@ -32,4 +32,9 @@ if [[ -f /run/.toolboxenv ]]; then
   elif (( $+commands[flatpak-spawn] )); then
     alias x='flatpak-spawn --host'
   fi
+fi
+
+# Shell integration
+if [[ -n $GHOSTTY_RESOURCES_DIR ]]; then
+  source $GHOSTTY_RESOURCES_DIR/shell-integration/zsh/ghostty-integration
 fi
