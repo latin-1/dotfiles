@@ -1,0 +1,14 @@
+#!/bin/bash
+set -eo pipefail
+
+flags=()
+if [[ ! -t 1 ]]; then
+  flags+=(--no-pty)
+fi
+
+program="$(basename "$0")"
+if [[ $program == host-spawn-auto ]]; then
+  host-spawn "${flags[@]}" "$@"
+else
+  host-spawn "${flags[@]}" "$program" "$@"
+fi
