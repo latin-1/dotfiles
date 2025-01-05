@@ -5,7 +5,7 @@ dnf = [
   "android-tools",
   "dconf",
   "host-spawn",
-  "openssl-devel",
+  "openssl-devel",      # For cargo:cargo-update
   "wl-clipboard",
   "zsh",
 ]
