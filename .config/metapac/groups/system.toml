@@ -37,7 +37,6 @@ flatpak = [
   "com.github.tchx84.Flatseal",
   "io.github.celluloid_player.Celluloid",
   "net.nokyan.Resources",
-  "org.fedoraproject.Platform",
   "org.gnome.Calculator",
   "org.gnome.Calendar",
   "org.gnome.Characters",
