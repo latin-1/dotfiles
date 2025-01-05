@@ -1,6 +1,7 @@
 theme = catppuccin-latte
 font-family = monospace
-font-size = 10
+font-size = 10.5
+adjust-cursor-thickness = 2
 background-opacity = 0.95
 window-theme = ghostty
 window-padding-x = 8
