@@ -1,13 +1,37 @@
-cargo = ["cargo-update", "metapac"]
-
 dnf = [
   "@development-tools",
+  "android-tools",
   "dconf",
   "host-spawn",
   "openssl-devel",      # For cargo:cargo-update
   "wl-clipboard",
   "zsh",
 ]
+
+brew = [
+  "bat",
+  "eza",
+  "fastfetch",
+  "gh",
+  "git-delta",
+  "git-extras",
+  "neovim",
+  "p7zip",
+  "proto",
+  "ripgrep",
+  "rustup",
+  "sheldon",
+  "shellcheck",
+  "shfmt",
+  "starship",
+  "stylua",
+  "taplo",
+  "unar",
+  "vcsh",
+  "zig",
+]
+
+cargo = ["cargo-update", "metapac"]
 
 flatpak = [
   "com.github.tchx84.Flatseal",
