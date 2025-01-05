@@ -7,4 +7,4 @@ window-theme = ghostty
 window-padding-x = 8
 window-padding-y = 8
 window-padding-balance = true
-command = toolbox run env GHOSTTY_RESOURCES_DIR="$GHOSTTY_RESOURCES_DIR" zsh
+command = toolbox run env GHOSTTY_RESOURCES_DIR="$GHOSTTY_RESOURCES_DIR" "$SHELL"
