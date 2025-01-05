@@ -2,8 +2,10 @@ dnf = [
   "@development-tools",
   "android-tools",
   "dconf",
+  "ghostty-shell-integration",
+  "ghostty-terminfo",
   "host-spawn",
-  "openssl-devel",      # For cargo:cargo-update
+  "openssl-devel",             # For cargo:cargo-update
   "wl-clipboard",
   "zsh",
 ]
