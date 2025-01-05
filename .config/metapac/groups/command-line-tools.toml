@@ -1,3 +1,5 @@
+dnf = ["android-tools"]
+
 brew = [
   "bat",
   "eza",

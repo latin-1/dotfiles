@@ -2,7 +2,6 @@ cargo = ["cargo-update", "metapac"]
 
 dnf = [
   "@development-tools",
-  "android-tools",
   "dconf",
   "host-spawn",
   "openssl-devel",      # For cargo:cargo-update
