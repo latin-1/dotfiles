@@ -17,6 +17,8 @@ brew = [
   "gh",
   "git-delta",
   "git-extras",
+  "jless",
+  "jq",
   "neovim",
   "p7zip",
   "proto",
