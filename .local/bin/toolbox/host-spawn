@@ -9,7 +9,7 @@ fi
 
 program="$(basename "$0")"
 if [[ $program == host-spawn-auto ]]; then
-  host-spawn "${flags[@]}" "$@"
+  /usr/bin/host-spawn "${flags[@]}" "$@"
 else
-  host-spawn "${flags[@]}" "$program" "$@"
+  /usr/bin/host-spawn "${flags[@]}" "$program" "$@"
 fi
