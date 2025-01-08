@@ -34,6 +34,13 @@ if [[ -f /run/.toolboxenv ]]; then
   fi
 fi
 
+function x-upgrade() {
+  sudo dnf upgrade
+  brew upgrade
+  sheldon lock --update
+  nvim --headless '+Lazy! sync' '+quitall'
+}
+
 # Shell integration
 if [[ -n $GHOSTTY_RESOURCES_DIR ]]; then
   source $GHOSTTY_RESOURCES_DIR/shell-integration/zsh/ghostty-integration
