@@ -8,7 +8,7 @@ if [[ ! -t 1 ]]; then
 fi
 
 program="$(basename "$0")"
-if [[ $program == host-spawn-auto ]]; then
+if [[ $program == host-spawn ]]; then
   /usr/bin/host-spawn "${flags[@]}" "$@"
 else
   /usr/bin/host-spawn "${flags[@]}" "$program" "$@"

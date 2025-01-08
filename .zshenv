@@ -1,7 +1,7 @@
 typeset -U PATH path
-path+=(~/.local/bin)
+path=(~/.local/bin $path)
 if [[ -f /run/.toolboxenv ]]; then
-  path+=(~/.local/bin/toolbox)
+  path=(~/.local/bin/toolbox $path)
 fi
 
 if [[ -x /home/linuxbrew/.linuxbrew/bin/brew ]]; then
