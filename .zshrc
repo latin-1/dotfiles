@@ -35,6 +35,7 @@ if [[ -f /run/.toolboxenv ]]; then
 fi
 
 function x-upgrade() {
+  set -x
   sudo dnf upgrade
   brew upgrade
   sheldon lock --update
