@@ -14,6 +14,7 @@ brew = [
   "bat",
   "eza",
   "fastfetch",
+  "fd",
   "fzf",
   "gh",
   "git-delta",
