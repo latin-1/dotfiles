@@ -14,6 +14,7 @@ brew = [
   "bat",
   "eza",
   "fastfetch",
+  "fzf",
   "gh",
   "git-delta",
   "git-extras",
@@ -33,6 +34,7 @@ brew = [
   "unar",
   "vcsh",
   "zig",
+  "zoxide",
 ]
 
 cargo = ["cargo-update", "metapac"]

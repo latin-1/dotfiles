@@ -14,6 +14,9 @@ zstyle ':completion:*' special-dirs true
 autoload -Uz compinit && compinit
 autoload -Uz bashcompinit && bashcompinit
 
+(( $+commands[fzf] )) && source <(fzf --zsh)
+(( $+commands[zoxide] )) && source <(zoxide init zsh)
+
 # Key bindings
 
 bindkey -v

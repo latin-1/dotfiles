@@ -17,3 +17,6 @@ post = """
 
 [plugins."zsh-users/zsh-autosuggestions"]
 github = "zsh-users/zsh-autosuggestions"
+
+[plugins."Aloxaf/fzf-tab"]
+github = "Aloxaf/fzf-tab"
