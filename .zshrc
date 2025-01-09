@@ -9,18 +9,18 @@ zstyle ':completion:*' menu select
 zstyle ':completion:*' special-dirs true
 zstyle ':completion:*' list-colors $LS_COLORS
 
-(( $+commands[sheldon] )) && source <(sheldon source)
+if [[ -f ~/.config/fzf/config ]]; then
+  export FZF_DEFAULT_OPTS=$(cat ~/.config/fzf/config)
+fi
+
 (( $+commands[starship] )) && source <(starship init zsh)
+(( $+commands[sheldon] )) && source <(sheldon source)
 
 autoload -Uz compinit && compinit
 autoload -Uz bashcompinit && bashcompinit
 
 (( $+commands[fzf] )) && source <(fzf --zsh)
 (( $+commands[zoxide] )) && source <(zoxide init zsh)
-
-if [[ -f ~/.config/fzf/config ]]; then
-  export FZF_DEFAULT_OPTS=$(cat ~/.config/fzf/config)
-fi
 
 # Key bindings
 
