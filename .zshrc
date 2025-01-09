@@ -10,10 +10,14 @@ zstyle ':completion:*' special-dirs true
 zstyle ':completion:*' list-colors $LS_COLORS
 
 (( $+commands[starship] )) && source <(starship init zsh)
-(( $+commands[sheldon] )) && source <(sheldon source)
 
-autoload -Uz compinit && compinit
-autoload -Uz bashcompinit && bashcompinit
+if (( $+commands[sheldon] )); then
+  source <(sheldon source)
+else
+  autoload -Uz compinit && compinit
+  autoload -Uz bashcompinit && bashcompinit
+fi
+
 
 (( $+commands[fzf] )) && source <(fzf --zsh)
 (( $+commands[zoxide] )) && source <(zoxide init zsh)
