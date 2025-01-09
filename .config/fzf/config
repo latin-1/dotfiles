@@ -17,4 +17,4 @@
 --color='selected-bg:#bcc0cc' # Surface 1
 --color='selected-fg:#4c4f69:bold' # Text
 --color='selected-hl:#d20f39:bold' # Red
---color='spinner:#dc8a78' # Rosewater
+--color='spinner:#179299' # Teal
