@@ -7,6 +7,7 @@ setopt HIST_IGNORE_ALL_DUPS
 
 zstyle ':completion:*' menu select
 zstyle ':completion:*' special-dirs true
+zstyle ':completion:*' list-colors $LS_COLORS
 
 (( $+commands[sheldon] )) && source <(sheldon source)
 (( $+commands[starship] )) && source <(starship init zsh)

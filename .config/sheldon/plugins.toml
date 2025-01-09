@@ -20,3 +20,8 @@ github = "zsh-users/zsh-autosuggestions"
 
 [plugins."Aloxaf/fzf-tab"]
 github = "Aloxaf/fzf-tab"
+
+[plugins."Aloxaf/fzf-tab".hooks]
+post = """
+  zstyle ':fzf-tab:*' use-fzf-default-opts yes
+"""
