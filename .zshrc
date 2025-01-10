@@ -18,7 +18,6 @@ else
   autoload -Uz bashcompinit && bashcompinit
 fi
 
-
 (( $+commands[fzf] )) && source <(fzf --zsh)
 (( $+commands[zoxide] )) && source <(zoxide init zsh)
 
