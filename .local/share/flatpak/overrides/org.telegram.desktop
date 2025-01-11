@@ -1,2 +1,6 @@
 [Context]
-filesystems=xdg-download/Telegram
+filesystems=xdg-download/Telegram;
+sockets=x11;!fallback-x11;
+
+[Environment]
+QT_QPA_PLATFORM=xcb
