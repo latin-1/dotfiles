@@ -4,3 +4,4 @@ sockets=x11;!fallback-x11;
 
 [Environment]
 QT_QPA_PLATFORM=xcb
+FREETYPE_PROPERTIES=cff:darkening-parameters=0,0,0,0,0,0,0,0
