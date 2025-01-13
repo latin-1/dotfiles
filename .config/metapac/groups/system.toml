@@ -10,34 +10,6 @@ dnf = [
   "zsh",
 ]
 
-brew = [
-  "bat",
-  "eza",
-  "fastfetch",
-  "fd",
-  "fzf",
-  "gh",
-  "git-delta",
-  "git-extras",
-  "jless",
-  "jq",
-  "neovim",
-  "p7zip",
-  "proto",
-  "ripgrep",
-  "rustup",
-  "sheldon",
-  "shellcheck",
-  "shfmt",
-  "starship",
-  "stylua",
-  "taplo",
-  "unar",
-  "vcsh",
-  "zig",
-  "zoxide",
-]
-
 cargo = ["cargo-update", "metapac"]
 
 flatpak = [
