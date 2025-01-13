@@ -17,6 +17,8 @@
   "autosave": "on_focus_change",
 
   "terminal": {
+    "font_weight": 500, // https://github.com/zed-industries/zed/issues/13564
+
     "shell": {
       "with_arguments": {
         "program": "toolbox",
