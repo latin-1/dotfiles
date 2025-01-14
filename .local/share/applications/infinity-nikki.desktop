@@ -1,4 +1,4 @@
 [Desktop Entry]
 Type=Application
 Name=Infinity Nikki
-Exec=scrcpy --window-title='Infinity Nikki' --start-app='?Infinity Nikki' --video-codec=av1 --video-bit-rate=16M --gamepad=uhid --stay-awake --disable-screensaver
+Exec=scrcpy --window-title='Infinity Nikki' --start-app='?Infinity Nikki' --video-codec=av1 --gamepad=uhid --stay-awake --disable-screensaver
