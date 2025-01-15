@@ -1,0 +1,19 @@
+#!/bin/bash
+set -eo pipefail
+
+flags=()
+if [[ ! -t 1 ]]; then
+  # https://github.com/1player/host-spawn/issues/40
+  flags+=(--no-pty)
+fi
+
+program="$(basename "$0")"
+if [[ $program == x-spawn ]]; then
+  if [[ $# == 0 ]]; then
+    host-spawn "${flags[@]}" env GHOSTTY_RESOURCES_DIR="$GHOSTTY_RESOURCES_DIR" "$SHELL"
+  else
+    host-spawn "${flags[@]}" "$@"
+  fi
+else
+  host-spawn "${flags[@]}" "$program" "$@"
+fi

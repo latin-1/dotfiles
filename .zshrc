@@ -34,11 +34,7 @@ bindkey -v
 (( $+commands[unar] )) && alias unar='unar -forks skip'
 
 if [[ -f /run/.toolboxenv ]]; then
-  if (( $+commands[host-spawn] )); then
-    alias x='host-spawn'
-  elif (( $+commands[flatpak-spawn] )); then
-    alias x='flatpak-spawn --host'
-  fi
+  alias x='x-spawn'
 fi
 
 function x-upgrade() {
@@ -53,6 +49,6 @@ function x-upgrade() {
 
 # Shell integration
 
-if [[ -n $GHOSTTY_RESOURCES_DIR ]]; then
+if [[ -n $GHOSTTY_RESOURCES_DIR && -d $GHOSTTY_RESOURCES_DIR ]]; then
   source $GHOSTTY_RESOURCES_DIR/shell-integration/zsh/ghostty-integration
 fi
