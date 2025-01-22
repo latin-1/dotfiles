@@ -34,8 +34,11 @@ bindkey -v
 (( $+commands[unar] )) && alias unar='unar -forks skip'
 
 function x() {
-  set -x
-  x-spawn $@
+  if [[ $# == 0 ]]; then
+    x-spawn $SHELL
+  else
+    x-spawn $@
+  fi
 }
 
 function x-upgrade() {

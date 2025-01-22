@@ -7,11 +7,7 @@ runner+=(env GHOSTTY_RESOURCES_DIR="$GHOSTTY_RESOURCES_DIR")
 
 program="$(basename "$0")"
 if [[ $program == x-spawn ]]; then
-  if [[ $# == 0 ]]; then
-    "${runner[@]}" "$SHELL"
-  else
-    "${runner[@]}" "$@"
-  fi
+  "${runner[@]}" "$@"
 else
   "${runner[@]}" "$program" "$@"
 fi
