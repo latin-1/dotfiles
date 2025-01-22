@@ -1,26 +1,24 @@
 typeset -U PATH path
-path=(~/.local/bin $path)
-if [[ -f /run/.toolboxenv ]]; then
-  path=(~/.local/bin/toolbox $path)
-fi
 
 if [[ -x /home/linuxbrew/.linuxbrew/bin/brew ]]; then
   source <(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 fi
 
-function try_source() {
-  if [[ -f $1 ]]; then
-    source $1
-  fi
-}
+if [[ -f ~/.cargo/env ]]; then
+  source ~/.cargo/env
+fi
 
-try_source ~/.cargo/env
-
-# https://moonrepo.dev/proto
 path+=(
   ~/.proto/shims
   ~/.proto/tools/node/globals/bin
 )
+
+path=(~/.local/bin $path)
+if [[ -f /run/.toolboxenv ]]; then
+  path=(~/.local/bin/toolbox $path)
+else
+  path=(~/.local/bin/host $path)
+fi
 
 if (( $+commands[nvim] )); then
   export EDITOR='nvim'

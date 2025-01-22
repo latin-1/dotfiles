@@ -33,9 +33,10 @@ bindkey -v
 (( $+commands[eza] )) && alias tree='eza --tree'
 (( $+commands[unar] )) && alias unar='unar -forks skip'
 
-if [[ -f /run/.toolboxenv ]]; then
-  alias x='x-spawn'
-fi
+function x() {
+  set -x
+  x-spawn $@
+}
 
 function x-upgrade() {
   set -x

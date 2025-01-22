@@ -1,11 +1,7 @@
 #!/bin/bash
 set -eo pipefail
 
-runner=(host-spawn)
-if [[ ! -t 1 ]]; then
-  # https://github.com/1player/host-spawn/issues/40
-  runner+=(--no-pty)
-fi
+runner=(toolbox run)
 runner+=("$SHELL" -c 'exec "$@"' --)
 runner+=(env GHOSTTY_RESOURCES_DIR="$GHOSTTY_RESOURCES_DIR")
 
