@@ -8,9 +8,10 @@ if [[ -f ~/.cargo/env ]]; then
   source ~/.cargo/env
 fi
 
-path+=(
+path=(
   ~/.proto/shims
   ~/.proto/tools/node/globals/bin
+  $path
 )
 
 path=(~/.local/bin $path)
