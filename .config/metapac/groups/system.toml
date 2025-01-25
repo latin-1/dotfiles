@@ -23,6 +23,7 @@ flatpak = [
   "org.gnome.Loupe",
   "org.gnome.NautilusPreviewer",
   "org.gnome.Snapshot",
+  "org.gnome.TextEditor",
   "org.gnome.Weather",
   "org.gnome.clocks",
   "org.gnome.seahorse.Application",
