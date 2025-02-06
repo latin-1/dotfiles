@@ -22,7 +22,11 @@
     "line_height": "standard",
 
     "shell": {
-      "program": "x-spawn"
+      "with_arguments": {
+        "title_override": "Terminal",
+        "program": "x-spawn",
+        "args": []
+      }
     }
   },
 
