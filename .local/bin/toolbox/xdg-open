@@ -1,1 +1,4 @@
-x-spawn
+#!/bin/bash
+set -eo pipefail
+
+x-spawn xdg-open "$@" | cat
