@@ -22,10 +22,7 @@
     "line_height": "standard",
 
     "shell": {
-      "with_arguments": {
-        "program": "toolbox",
-        "args": ["enter"]
-      }
+      "program": "x-spawn"
     }
   },
 
