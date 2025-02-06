@@ -1,5 +1,13 @@
 shell = "zsh"
 
+[plugins.zsh-vi-mode]
+github = "jeffreytse/zsh-vi-mode"
+
+[plugins.zsh-vi-mode.hooks]
+pre = """
+  ZVM_INIT_MODE=sourcing
+"""
+
 [plugins.zsh-completions]
 github = "zsh-users/zsh-completions"
 
@@ -33,6 +41,3 @@ post = """
   bindkey '^[[A' history-substring-search-up
   bindkey '^[[B' history-substring-search-down
 """
-
-[plugins.zsh-vi-mode]
-github = "jeffreytse/zsh-vi-mode"
