@@ -30,11 +30,8 @@ export FZF_DEFAULT_OPTS_FILE=~/.config/fzf/config
 (( $+commands[unar] )) && alias unar='unar -forks skip'
 
 function x() {
-  if [[ $# == 0 ]]; then
-    x-spawn $SHELL
-  else
-    x-spawn $@
-  fi
+  set -x
+  x-spawn $@
 }
 
 function x-upgrade() {
