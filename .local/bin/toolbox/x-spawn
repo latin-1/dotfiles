@@ -2,7 +2,7 @@
 set -eo pipefail
 
 runner=(host-spawn)
-runner+=("$SHELL" -c 'exec "$@"' --)
+runner+=(/bin/bash -c 'exec "$@"' --)
 runner+=(env GHOSTTY_RESOURCES_DIR="$GHOSTTY_RESOURCES_DIR")
 
 program="$(basename "$0")"
