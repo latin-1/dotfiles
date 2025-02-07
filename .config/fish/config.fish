@@ -44,4 +44,15 @@ if status is-interactive
     command --query nvim && alias vim nvim
     command --query eza && alias tree 'eza --tree'
     command --query unar && alias unar 'unar -forks skip'
+
+    abbr --add x x-spawn
+
+    function x-upgrade
+        set --function fish_trace 1
+        sudo dnf upgrade
+        brew upgrade
+        nvim --headless '+Lazy! sync' '+quitall'
+        rustup update
+        cargo install-update --all
+    end
 end
