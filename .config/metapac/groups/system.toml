@@ -2,12 +2,12 @@ dnf = [
   "@development-tools",
   "android-tools",
   "dconf",
+  "fish",
   "ghostty-shell-integration",
   "ghostty-terminfo",
   "host-spawn",
   "openssl-devel",             # For cargo:cargo-update
   "wl-clipboard",
-  "zsh",
 ]
 
 cargo = ["cargo-update", "metapac"]
