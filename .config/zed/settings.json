@@ -27,6 +27,10 @@
     "font_weight": 500, // https://github.com/zed-industries/zed/issues/13564
     "line_height": "standard",
 
+    "toolbar": {
+      "breadcrumbs": false
+    },
+
     "shell": {
       "with_arguments": {
         "title_override": "Terminal",
