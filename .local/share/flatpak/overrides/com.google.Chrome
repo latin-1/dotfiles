@@ -1,2 +1,5 @@
 [Context]
 filesystems=xdg-config/chrome-flags.conf;
+
+[Session Bus Policy]
+org.gnome.ScreenSaver=talk
