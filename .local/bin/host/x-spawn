@@ -2,7 +2,11 @@
 set -eo pipefail
 
 runner=(toolbox run)
-runner+=(/bin/bash -c 'exec "$@"' --)
+case $SHELL in
+*/bash | */zsh) runner+=("$SHELL" -c 'exec "$@"' --) ;;
+*/fish) runner+=("$SHELL" --command='exec $argv' --) ;;
+*) runner+=(/bin/bash -c 'exec "$@"' --) ;;
+esac
 runner+=(env GHOSTTY_RESOURCES_DIR="$GHOSTTY_RESOURCES_DIR")
 
 program="$(basename "$0")"
