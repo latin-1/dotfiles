@@ -1,10 +1,21 @@
 [
   {
+    "bindings": {
+      "ctrl-p": "file_finder::Toggle"
+    }
+  },
+  {
     "context": "Editor",
     "bindings": {
       "ctrl-x": "editor::Cut",
       "ctrl-c": "editor::Copy",
       "ctrl-v": "editor::Paste"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == visual",
+    "bindings": {
+      "shift-s": ["vim::PushOperator", { "AddSurrounds": {} }]
     }
   }
 ]
