@@ -34,8 +34,8 @@
     "shell": {
       "with_arguments": {
         "title_override": "Terminal",
-        "program": "x-spawn",
-        "args": []
+        "program": "bash",
+        "args": ["-c", "~/.local/bin/host/x-spawn"]
       }
     }
   },

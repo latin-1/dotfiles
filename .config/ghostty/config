@@ -7,4 +7,4 @@ window-theme = ghostty
 window-padding-x = 8
 window-padding-y = 8
 window-padding-balance = true
-command = x-spawn
+command = ~/.local/bin/host/x-spawn
