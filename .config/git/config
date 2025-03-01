@@ -37,4 +37,4 @@
 
 [include]
   path = ./themes/catppuccin.gitconfig
-  path = ./private.gitconfig
+  path = ./configs/private.gitconfig
