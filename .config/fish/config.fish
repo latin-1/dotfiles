@@ -61,6 +61,7 @@ if status is-interactive
         set --function fish_trace 1
         sudo dnf upgrade
         brew upgrade
+        fisher update
         nvim --headless '+Lazy! sync' '+quitall'
         rustup update
         cargo install-update --all
