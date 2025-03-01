@@ -31,7 +31,9 @@ end
 
 if status is-interactive
     set --global fish_greeting
-    fish_config theme choose 'Catppuccin Latte'
+    if contains 'Catppuccin Latte' (fish_config theme list | string split '\n')
+        fish_config theme choose 'Catppuccin Latte'
+    end
 
     function fish_hybrid_key_bindings
         for mode in default insert visual
