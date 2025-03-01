@@ -60,7 +60,6 @@ if status is-interactive
     abbr --add x x-spawn
 
     function x-upgrade
-        set --function fish_trace 1
         sudo dnf upgrade
         brew upgrade
         fisher update
