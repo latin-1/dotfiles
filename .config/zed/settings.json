@@ -19,8 +19,8 @@
 
   "autosave": "on_focus_change",
   "code_actions_on_format": {
-    "source.fixAll.biome": true,
-    "source.organizeImports.biome": true
+    "source.fixAll": true,
+    "source.organizeImports": true
   },
 
   "terminal": {
