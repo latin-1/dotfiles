@@ -3,32 +3,10 @@ dnf = [
   "android-tools",
   "dconf",
   "fish",
-  "ghostty-shell-integration",
-  "ghostty-terminfo",
   "host-spawn",
-  "openssl-devel",             # For cargo:cargo-update
+  "openssl-devel",      # For cargo:cargo-update
   "starship",
   "wl-clipboard",
 ]
 
 cargo = ["cargo-update", "metapac"]
-
-flatpak = [
-  "com.github.tchx84.Flatseal",
-  "io.github.celluloid_player.Celluloid",
-  "net.nokyan.Resources",
-  "org.gnome.Calculator",
-  "org.gnome.Calendar",
-  "org.gnome.Characters",
-  "org.gnome.Extensions",
-  "org.gnome.Loupe",
-  "org.gnome.NautilusPreviewer",
-  "org.gnome.Snapshot",
-  "org.gnome.TextEditor",
-  "org.gnome.Weather",
-  "org.gnome.clocks",
-  "org.gnome.seahorse.Application",
-  "org.gtk.Gtk3theme.adw-gtk3",
-  "org.gtk.Gtk3theme.adw-gtk3-dark",
-  "page.tesk.Refine",
-]
