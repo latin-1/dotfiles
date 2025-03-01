@@ -7,7 +7,7 @@ case $SHELL in
 */fish) runner+=("$SHELL" --command='exec $argv' --) ;;
 *) runner+=(/bin/bash -c 'exec "$@"' --) ;;
 esac
-runner+=(env SHELL="$SHELL" GHOSTTY_RESOURCES_DIR="$GHOSTTY_RESOURCES_DIR")
+runner+=(env SHELL="$SHELL")
 
 program="$(basename "$0")"
 if [[ $program == x-spawn ]]; then
