@@ -1,0 +1,3 @@
+[submodule ".local/share/dotfiles/repos/catppuccin-bat"]
+	path = .local/share/dotfiles/repos/catppuccin-bat
+	url = https://github.com/catppuccin/bat.git
