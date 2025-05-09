@@ -1,12 +1,9 @@
 fish_add_path --global ~/.proto/bin
 fish_add_path --global ~/.proto/shims
 
-if command --query nvim
-    set --global --export EDITOR nvim
-    set --global --export VISUAL nvim
-else if command --query vim
-    set --global --export EDITOR vim
-    set --global --export VISUAL vim
+if command --query zed
+    set --global --export EDITOR 'zed --wait'
+    set --global --export VISUAL 'zed --wait'
 end
 
 set --local less_version (less --version | string match --regex --groups-only 'less (\d+)')
