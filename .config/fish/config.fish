@@ -1,3 +1,6 @@
+fish_add_path --global ~/.proto/bin
+fish_add_path --global ~/.proto/shims
+
 if command --query nvim
     set --global --export EDITOR nvim
     set --global --export VISUAL nvim
