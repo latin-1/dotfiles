@@ -1,0 +1,24 @@
+[user]
+	name = Hikari Hayashi
+	email = rev.hikari@gmail.com
+[core]
+	pager = "if command -v delta &>/dev/null; then delta; else less; fi"
+[init]
+	defaultBranch = main
+[diff]
+	algorithm = histogram
+	colorMoved = dimmed-zebra
+[merge]
+	conflictStyle = zdiff3
+[rebase]
+	autoSquash = true
+[pull]
+	ff = only
+[push]
+	autoSetupRemote = true
+[delta]
+	line-numbers = true
+	features = catppuccin-latte
+[include]
+	path = ./configs/private.gitconfig
+	path = ./configs/catppuccin.gitconfig
