@@ -17,7 +17,8 @@
   },
 
   "terminal": {
-    "font_weight": 500 // https://github.com/zed-industries/zed/issues/13564
+    "font_weight": 500, // https://github.com/zed-industries/zed/issues/13564
+    "line_height": "standard"
   },
 
   "auto_install_extensions": {
