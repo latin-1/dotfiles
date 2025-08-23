@@ -16,6 +16,18 @@
     "source.organizeImports": true
   },
 
+  "lsp": {
+    "tinymist": {
+      "initialization_options": {
+        "preview": {
+          "background": {
+            "enabled": true
+          }
+        }
+      }
+    }
+  },
+
   "terminal": {
     "font_weight": 500, // https://github.com/zed-industries/zed/issues/13564
     "line_height": "standard",
