@@ -18,6 +18,9 @@
 
   "lsp": {
     "tinymist": {
+      "settings": {
+        "formatterMode": "typstyle"
+      },
       "initialization_options": {
         "preview": {
           "background": {
