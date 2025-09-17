@@ -41,6 +41,10 @@
 
     "scrollbar": {
       "show": "never"
+    },
+
+    "env": {
+      "COLORTERM": "truecolor"
     }
   },
 
