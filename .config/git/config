@@ -21,4 +21,4 @@
 	features = catppuccin-latte
 [include]
 	path = ./configs/private.gitconfig
-	path = ./configs/catppuccin.gitconfig
+	path = ./delta-themes/catppuccin.gitconfig
