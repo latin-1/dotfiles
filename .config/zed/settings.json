@@ -15,6 +15,13 @@
   },
 
   "lsp": {
+    "rust-analyzer": {
+      "initialization_options": {
+        "rustfmt": {
+          "extraArgs": ["+nightly"]
+        }
+      }
+    },
     "tinymist": {
       "settings": {
         "formatterMode": "typstyle"
