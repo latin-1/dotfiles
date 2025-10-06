@@ -41,10 +41,6 @@
 
     "toolbar": {
       "breadcrumbs": false
-    },
-
-    "scrollbar": {
-      "show": "never"
     }
   },
 
