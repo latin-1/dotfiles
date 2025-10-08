@@ -3,6 +3,7 @@ deno = "latest"
 node = "latest"
 npm = "latest"
 pnpm = "latest"
+proto = "latest"
 rust = "latest"
 yarn = "latest"
 
