@@ -1,2 +1,2 @@
 [Context]
-filesystems=~/Games;~/.var/app/com.valvesoftware.Steam/data/Steam;
+filesystems=~/.var/app/com.valvesoftware.Steam/data/Steam;~/Games;
