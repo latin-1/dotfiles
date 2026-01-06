@@ -1,0 +1,5 @@
+theme = catppuccin-latte.conf
+background-opacity = 0.95
+alpha-blending = native
+font-family = monospace
+font-size = 11
