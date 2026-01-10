@@ -1,8 +1,8 @@
 fish_add_path --global ~/.proto/bin
 fish_add_path --global ~/.proto/shims
 
-set --global --export BAT_PAGER 'less --+no-init --RAW-CONTROL-CHARS'
-set --global --export DELTA_PAGER 'less --+no-init --RAW-CONTROL-CHARS'
+set --global --export BAT_PAGER 'less --+no-init --RAW-CONTROL-CHARS --quit-if-one-screen'
+set --global --export DELTA_PAGER 'less --+no-init --RAW-CONTROL-CHARS --quit-if-one-screen'
 
 if command --query zed
     set --global --export EDITOR 'zed --wait'
