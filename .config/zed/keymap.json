@@ -2,6 +2,7 @@
   {
     "bindings": {
       "ctrl-p": "file_finder::Toggle",
+      "ctrl-shift-p": "command_palette::Toggle",
     },
   },
   {
@@ -11,6 +12,7 @@
       "ctrl-c": "editor::Copy",
       "ctrl-x": "editor::Cut",
       "ctrl-v": "editor::Paste",
+      "ctrl-k": null,
     },
   },
   {
