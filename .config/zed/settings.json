@@ -39,10 +39,10 @@
   },
 
   "agent": {
-    "default_profile": "write",
     "default_model": {
       "provider": "zed.dev",
-      "model": "claude-opus-4-5-thinking",
+      "model": "claude-opus-4-6",
+      "enable_thinking": true,
     },
   },
 
