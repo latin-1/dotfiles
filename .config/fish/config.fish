@@ -1,3 +1,5 @@
+fish_add_path --global ~/.local/bin
+
 fish_add_path --global ~/.proto/bin
 fish_add_path --global ~/.proto/shims
 

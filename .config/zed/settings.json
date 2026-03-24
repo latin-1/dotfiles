@@ -39,6 +39,7 @@
   },
 
   "agent": {
+    "default_profile": "write",
     "default_model": {
       "provider": "zed.dev",
       "model": "claude-opus-4-6",
