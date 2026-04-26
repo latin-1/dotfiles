@@ -1,2 +1,2 @@
 [Context]
-filesystems=~/.var/app/com.valvesoftware.Steam/data/Steam;~/Games;
+filesystems=xdg-download;~/.var/app/com.valvesoftware.Steam/data/Steam;~/Games;
