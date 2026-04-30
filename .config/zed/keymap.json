@@ -8,11 +8,11 @@
   {
     "context": "Editor",
     "bindings": {
+      "ctrl-k": null,
       "ctrl-s": "workspace::Save",
       "ctrl-c": "editor::Copy",
       "ctrl-x": "editor::Cut",
       "ctrl-v": "editor::Paste",
-      "ctrl-k": null,
     },
   },
   {

@@ -1,5 +1,6 @@
 {
-  "theme": "Catppuccin Latte",
+  "theme": "One Light",
+
   "ui_font_family": "Source Sans 3", // https://github.com/zed-industries/zed/issues/22676
   "ui_font_fallbacks": ["Source Han Sans"], // https://github.com/zed-industries/zed/issues/22676
   "ui_font_size": 16,
@@ -7,47 +8,17 @@
   "buffer_font_fallbacks": ["Source Han Sans"], // https://github.com/zed-industries/zed/issues/22676
   "buffer_font_size": 14,
 
+  "sticky_scroll": {
+    "enabled": true,
+  },
+
   "vim_mode": true,
+  "semantic_tokens": "combined",
   "use_smartcase_search": true,
 
   "autosave": "on_focus_change",
   "code_actions_on_format": {
     "source.fixAll": true,
     "source.organizeImports": true,
-  },
-
-  "lsp": {
-    "rust-analyzer": {
-      "initialization_options": {
-        "rustfmt": {
-          "extraArgs": ["+nightly"],
-        },
-      },
-    },
-    "tinymist": {
-      "initialization_options": {
-        "preview": {
-          "background": {
-            "enabled": true,
-          },
-        },
-      },
-      "settings": {
-        "formatterMode": "typstyle",
-      },
-    },
-  },
-
-  "agent": {
-    "default_profile": "write",
-    "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-opus-4-6",
-      "enable_thinking": true,
-    },
-  },
-
-  "auto_install_extensions": {
-    "catppuccin": true,
   },
 }
