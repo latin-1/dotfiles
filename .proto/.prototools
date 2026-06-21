@@ -5,6 +5,7 @@ npm = "latest"
 pnpm = "latest"
 proto = "latest"
 rust = "latest"
+uv = "latest"
 yarn = "latest"
 
 [settings]
