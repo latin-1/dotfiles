@@ -10,6 +10,7 @@
     "bindings": {
       "ctrl-k": null,
       "ctrl-s": "workspace::Save",
+      "ctrl-a": "editor::SelectAll",
       "ctrl-c": "editor::Copy",
       "ctrl-x": "editor::Cut",
       "ctrl-v": "editor::Paste",
