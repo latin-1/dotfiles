@@ -14,8 +14,8 @@ end
 if status is-interactive
     set --global fish_greeting
 
-    if contains 'Catppuccin Latte' (fish_config theme list | string split '\n')
-        fish_config theme choose 'Catppuccin Latte'
+    if contains catppuccin-frappe (fish_config theme list | string split '\n')
+        fish_config theme choose catppuccin-frappe
     end
 
     set --global fish_key_bindings fish_hybrid_key_bindings
