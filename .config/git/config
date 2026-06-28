@@ -17,8 +17,8 @@
 [push]
 	autoSetupRemote = true
 [delta]
-	line-numbers = true
 	features = catppuccin-latte
+	line-numbers = true
 [include]
-	path = ./configs/private.gitconfig
-	path = ./delta-themes/catppuccin.gitconfig
+	path = ~/.local/share/dotfiles/repos/catppuccin-delta/catppuccin.gitconfig
+	path = ./private.gitconfig
