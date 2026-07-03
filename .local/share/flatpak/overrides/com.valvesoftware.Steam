@@ -1,0 +1,3 @@
+[Environment]
+MANGOHUD_CONFIG=no_display,fps_limit=60
+MANGOHUD=1
