@@ -17,12 +17,13 @@
   "use_smartcase_search": true,
 
   "autosave": "on_focus_change",
+  "format_on_save": "on",
   "code_actions_on_format": {
     "source.fixAll": true,
     "source.organizeImports": true,
   },
 
-  "cli_default_open_behavior": "new_window",
+  "cli_default_open_behavior": "existing_window",
 
   "agent": {
     "default_profile": "write",
