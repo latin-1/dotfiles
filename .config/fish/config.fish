@@ -6,7 +6,7 @@ fish_add_path --global ~/.proto/shims
 set --global --export BAT_PAGER 'less --+no-init --RAW-CONTROL-CHARS --quit-if-one-screen'
 set --global --export DELTA_PAGER 'less --+no-init --RAW-CONTROL-CHARS --quit-if-one-screen'
 
-if command --query zed
+if command --query nvim
     set --global --export EDITOR nvim
     set --global --export VISUAL nvim
 end
