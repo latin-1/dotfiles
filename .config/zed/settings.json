@@ -1,5 +1,5 @@
 {
-  "theme": "One Light",
+  "theme": "JetBrains Light",
 
   "ui_font_family": "Source Sans 3", // https://github.com/zed-industries/zed/issues/22676
   "ui_font_fallbacks": ["Source Han Sans"], // https://github.com/zed-industries/zed/issues/22676
@@ -48,5 +48,9 @@
         "reasoning_effort": "medium",
       },
     },
+  },
+
+  "auto_install_extensions": {
+    "jetbrains-themes": true,
   },
 }
