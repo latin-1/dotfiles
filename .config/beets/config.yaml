@@ -1,5 +1,7 @@
 plugins:
   - inline
+  - edit
+  - discogs
   - musicbrainz
 import:
   write: false
