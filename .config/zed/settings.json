@@ -45,7 +45,8 @@
       "default_config_options": {
         "mode": "agent",
         "model": "gpt-5.6-sol",
-        "reasoning_effort": "medium",
+        "reasoning_effort": "high",
+        "collaboration_mode": "default",
       },
     },
   },
