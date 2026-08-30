@@ -1,8 +1,9 @@
 plugins:
   - inline
+  - musicbrainz
 import:
   write: false
-  autotag: false
+  timid: true
 per_disc_numbering: true
 item_fields:
   disc_and_track: f"{disc:02d}-{track:02d}" if disctotal > 1 else f"{track:02d}"
