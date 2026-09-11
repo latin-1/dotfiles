@@ -1,4 +1,5 @@
 plugins:
+  - info
   - inline
   - edit
   - discogs
@@ -13,3 +14,8 @@ paths:
   default: $albumartist/$album%aunique{}/$disc_and_track. $title
   singleton: $artist/$title%sunique{}
   comp: Various Artists/$album%aunique{}/$disc_and_track. $title
+sort_item: albumartist+ album+ disc+ track+
+sort_album: albumartist+ album+
+edit:
+  itemfields: disc track title artist artists
+  albumfields: album albumartist disctotal
