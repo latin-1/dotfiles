@@ -1,4 +1,3 @@
-bun = "latest"
 deno = "latest"
 node = "latest"
 npm = "latest"
@@ -7,6 +6,3 @@ proto = "latest"
 rust = "latest"
 uv = "latest"
 yarn = "latest"
-
-[settings]
-auto-install = true
