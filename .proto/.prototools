@@ -6,3 +6,6 @@ proto = "latest"
 rust = "latest"
 uv = "latest"
 yarn = "latest"
+
+[settings]
+auto-install = true
