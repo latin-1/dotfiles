@@ -46,6 +46,13 @@
     },
   },
 
+  "context_servers": {
+    "chrome-devtools": {
+      "command": "npx",
+      "args": ["--yes", "chrome-devtools-mcp@latest", "--autoConnect"],
+    },
+  },
+
   "auto_install_extensions": {
     "jetbrains-themes": true,
   },
