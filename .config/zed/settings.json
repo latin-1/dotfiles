@@ -28,7 +28,7 @@
   "agent": {
     "default_model": {
       "provider": "openai-subscribed",
-      "model": "gpt-6.1-sol",
+      "model": "gpt-6.2-sol",
       "enable_thinking": true,
       "effort": "medium",
     },
@@ -39,7 +39,7 @@
       "type": "registry",
       "default_config_options": {
         "mode": "agent",
-        "model": "gpt-6.1-sol",
+        "model": "gpt-6.2-sol",
         "reasoning_effort": "medium",
         "collaboration_mode": "default",
       },
